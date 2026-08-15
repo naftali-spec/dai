@@ -1,0 +1,84 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.bg{
+    max-width:500px;
+    background: rgb(223, 95, 10);
+    height: 100vh;
+    background-image:url(highway.jpg);
+    background-position-x: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    margin: 0 auto;
+}
+
+.profile { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.profile>img {
+    width: 150px;
+    height: 150px;
+    border: 15px #dd3636;
+    border-radius: 100%;
+}
+
+.profile>p {
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: azure;
+    text-align: center;
+}
+
+.link{
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 20px;
+}
+
+.link > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    text-decoration: none;
+    color: #222;
+    font-size: 24px;
+
+    border: 3px solid #7c1818;
+    background-color: #979090;
+    border-radius: 10px;
+
+    margin: 7px 10px;
+    padding: 12px;
+
+    text-transform: uppercase;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.link > a i {
+    font-size: 30px;
+}
+
+.link > a:hover {
+    color: white;
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+.f{
+    text-align: center;
+}
+.f>i {
+    color: #970606;
+    font-size: 24px;
+}
